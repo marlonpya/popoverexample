@@ -14,6 +14,7 @@
 		343C3E11200EF9750078E496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343C3E0F200EF9750078E496 /* LaunchScreen.storyboard */; };
 		343C3E1C200EF9750078E496 /* PopOverExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C3E1B200EF9750078E496 /* PopOverExampleTests.swift */; };
 		343C3E27200EF9750078E496 /* PopOverExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C3E26200EF9750078E496 /* PopOverExampleUITests.swift */; };
+		343C3E35200EFAAF0078E496 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C3E34200EFAAF0078E496 /* PopOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		343C3E22200EF9750078E496 /* PopOverExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopOverExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343C3E26200EF9750078E496 /* PopOverExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverExampleUITests.swift; sourceTree = "<group>"; };
 		343C3E28200EF9750078E496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343C3E34200EFAAF0078E496 /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				343C3E06200EF9750078E496 /* AppDelegate.swift */,
 				343C3E08200EF9750078E496 /* ViewController.swift */,
+				343C3E34200EFAAF0078E496 /* PopOverViewController.swift */,
 				343C3E0A200EF9750078E496 /* Main.storyboard */,
 				343C3E0D200EF9750078E496 /* Assets.xcassets */,
 				343C3E0F200EF9750078E496 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				343C3E09200EF9750078E496 /* ViewController.swift in Sources */,
 				343C3E07200EF9750078E496 /* AppDelegate.swift in Sources */,
+				343C3E35200EFAAF0078E496 /* PopOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
